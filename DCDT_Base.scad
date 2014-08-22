@@ -1,7 +1,10 @@
+// Resolution
+$fn=100;
+
 // Base of stand
 // Note, remote the radius from the dimensions
 // of th rectangular base
-base_width = 10;
+base_width = 12;
 base_thickness = 5;
 base_length = 65;
 curve_radius = 5;

@@ -1,3 +1,6 @@
+// Resolution
+$fn=100;
+
 // Base of stand
 // Note, remote the radius from the dimensions
 // of th rectangular base
