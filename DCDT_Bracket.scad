@@ -1,5 +1,5 @@
 // Resolution
-$fn=100;
+$fn=50;
 
 // Base of stand
 // Note, remote the radius from the dimensions
