@@ -10,14 +10,14 @@ base_length = 65;
 curve_radius = 5;
 
 // Risers
-riser_radius = 3.3782; // Loose fit clear drill for 1/4"
+riser_radius = 3.38 + 0.2; // Loose fit clear drill for 1/4"
 riser_separation = 50;
 
 // DCDT
-dcdt_radius = 10.18;
+dcdt_radius = 10.15;
 
 // Screw Holes
-screw_radius = 1.1310; //or 1.1303
+screw_radius = 1.1310 + 0.2; //or 1.1303
 
 // Raft
 raft_width = 7;
