@@ -39,18 +39,11 @@ from getting mixed) and mounts for the DCDT cores to a perpendicular surface. Se
 - Affix the DCDT.
 - Have a beverage.
 
-## Accessories  
-This repository also includes useful accessories for DCDT operation:
-
-### Core Label
-This handy label fits on a 2-56 threaded core to label it with a calibration
-identifier.
-
-![Core label on DCDT](photos/label_end.jpg)
-
-### Core Bracket
-This bracket will allow mounting of the core to a perpendicular surface.
-Most easily affixed with glue or epoxy, but could also be mounted with
-a screw.
-
-![Core label on DCDT](photos/bracket_side.jpg)
+## Photos
+![Bottom of the base](photos/base_bottom.jpg)
+![Top of the base](photos/base_top.jpg)
+![DCDT Mount](photos/dcdt_mount.jpg)
+![Example Setup](photos/setup_1_front.jpg)
+![Example Setup](photos/setup_1_oblique.jpg)
+![Example Setup](photos/setup_2_front.jpg)
+![Example Setup](photos/setup_2_oblique.jpg)
