@@ -6,7 +6,7 @@ wall_thickness = 1.5 ;
 rail_size = 10;
 rail_spacing = 20;
 bracket_length = 10;
-m3_clear = 3.5/2;
+m3_clear = 3.7/2;
 
 difference(){
     // Bracket

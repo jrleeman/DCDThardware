@@ -5,7 +5,7 @@ $fn=50;
 wall_thickness = 1.5 ;
 rail_size = 10;
 bracket_length = 10;
-m3_clear = 3.5/2;
+m3_clear = 3.7/2;
 
 difference(){
     // Bracket
@@ -17,5 +17,9 @@ difference(){
     
     // Screw holes
     translate([rail_size/2, rail_size/2, 0])
-    cylinder(h=wall_thickness, r1=m3_clear, r2=m3_clear);
+    cylinder(h=2*wall_thickness, r1=m3_clear, r2=m3_clear);
+    
+    rotate([0,-90,0])
+    translate([rail_size/2, rail_size/2, -wall_thickness])
+    cylinder(h=wall_thickness*2, r1=m3_clear, r2=m3_clear);
 }
