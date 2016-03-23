@@ -26,13 +26,23 @@ arm_height = nut_driver_clearance*2*2;
 rod_groove_width = 2.6; 
 rod_groove_depth = arm_height - wall_thickness;
 
+// Alignment arm
+alignment_thickness = 2;
+alignment_width = 8;
 
 // Uncomment for printing orientation
 rotate([0,-90,0])
 
 difference(){
-    // Main body
-    cube([arm_length,arm_width,arm_height]);
+    
+    union(){
+        // Main body
+        cube([arm_length,arm_width,arm_height]);
+        
+        // Alignment arm
+        translate([-alignment_thickness, -alignment_width, 0])
+        cube([alignment_thickness, alignment_width+arm_width, arm_height]);
+    }
     
     // Groove for nut
     translate([m3_clear+wall_thickness*2,-nut_groove_width/2+dcdt_radius+dcdt_center_offset, nut_groove_off_bottom])
