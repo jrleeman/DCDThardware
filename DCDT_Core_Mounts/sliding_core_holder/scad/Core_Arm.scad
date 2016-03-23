@@ -2,22 +2,22 @@
 $fn=50;
 
 // DCDT
-dcdt_radius = 9.55;
+dcdt_radius = 9.75;
 dcdt_center_offset = 2; // How far off center is the DCDT (wall thickness of mount)
 
 // Groove for captive nut
-nut_groove_width = 5.4;
+nut_groove_width = 4.2;
 nut_groove_height = 1.7;
 nut_groove_off_bottom = 3;
 
 // m3 hardware
 m3_clear = 3.5/2; // Standard Fit
-nut_driver_clearance = 7/2; // Radius of clearance for m3 nut driver
+nut_driver_clearance = 7.9/2; // Radius of clearance for m3 nut driver
 cap_head_clearance = 3.;
 cap_head_depth_clearance = 3.5;
 
 // Arm parameters
-arm_length = 40;
+arm_length = 20;
 wall_thickness = 2;
 arm_width = dcdt_radius + dcdt_center_offset + nut_groove_width/2 + wall_thickness;
 arm_height = nut_driver_clearance*2*2;
