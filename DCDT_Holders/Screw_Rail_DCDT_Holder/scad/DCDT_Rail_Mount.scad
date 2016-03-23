@@ -2,11 +2,11 @@
 $fn=50;
 
 // DCDT
-dcdt_radius = 10.5;
+dcdt_radius = 9.75;
 
 // m3 hardware
 m3_clear = 3.5/2; // Standard Fit
-m3_tap = 2.7/2; // Tap drill
+m3_tap = 5.2/2; // Melt in size
 nut_driver_clearance = 8/2; // Radius of clearance for m3 nut driver
 cap_head_clearance = 7/2.;
 cap_head_depth_clearance = 5;
@@ -60,6 +60,13 @@ difference(){
     cylinder(base_thickness*2,m3_clear,m3_clear);
     
     translate([mounts_from_edge,base_length/2-mount_spacing/2,0]) 
+    cylinder(base_thickness*2,m3_clear,m3_clear);
+    
+    // Center Holes
+    translate([mounts_from_edge,base_length/2,0]) 
+    cylinder(base_thickness*2,m3_clear,m3_clear);
+    
+    translate([base_width-mounts_from_edge,base_length/2,0]) 
     cylinder(base_thickness*2,m3_clear,m3_clear);
     
     // DCDT Hole
