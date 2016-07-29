@@ -8,14 +8,14 @@ dcdt_radius = 9.75;
 m3_clear = 3.5/2; // Standard Fit
 m3_tap = 5.2/2; // Melt in size
 nut_driver_clearance = 8/2; // Radius of clearance for m3 nut driver
-cap_head_clearance = 7/2.;
-cap_head_depth_clearance = 5;
+cap_head_clearance = 6.3/2.;
+cap_head_depth_clearance = 3.3;
 
 // DCDT Mount
 mount_wall_thickness = 2;
-mount_height = dcdt_radius*2+mount_wall_thickness + cap_head_clearance*2; 
+mount_height = dcdt_radius*2.2+mount_wall_thickness + cap_head_clearance*2; 
 mount_width = dcdt_radius*2+2*mount_wall_thickness;
-gap_width = 0.03 * mount_width;
+gap_width = 0.05 * mount_width;
 
 
 // Holder parameters
@@ -28,7 +28,7 @@ mount_spacing = 20.;
 mounts_from_edge = nut_driver_clearance;
 
 // Clamp Screws
-clamp_top_offset = cap_head_clearance * 1.2;
+clamp_top_offset = cap_head_clearance * 1.4;
 clamp_spacing = 20;
 
 // Uncomment for printing orientation
